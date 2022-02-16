@@ -7810,9 +7810,7 @@ textarea.form-control-lg {
     display: none !important; } }
 
 body {
-  /*background-color: $--clr-back;*/
-  background-image: url(../img/back-matrix.jpg);
-  background-size: cover; }
+  background-color: #242424; }
 
 .titulo {
   color: #004ce3;
@@ -7823,7 +7821,7 @@ body {
   border-radius: 5rem; }
 
 .background-tit {
-  background-color: #fcebf6; }
+  background-color: #d6d6d6; }
 
 .background-white {
   background-color: white; }
@@ -7881,4 +7879,17 @@ body {
   border-radius: 4rem; }
 
 .logo:hover {
+  transform: scale(1.15); }
+
+.contacto {
+  height: 25rem;
+  background-color: #d6d6d6; }
+
+.redes {
+  max-width: 4rem;
+  max-height: 4rem;
+  transition: 0.5s;
+  border-radius: 4rem; }
+
+.redes:hover {
   transform: scale(1.15); }

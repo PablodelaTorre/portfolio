@@ -8,9 +8,9 @@ $--clr-nav: white;
 $--clr-back: #eeeeee;
 
 body {
-    /*background-color: $--clr-back;*/
-    background-image: url(../img/back-matrix.jpg);
-    background-size: cover;
+    background-color: #242424; 
+    //background-image: url(../img/back-matrix.jpg);
+    //background-size: cover;
 }
 
 .titulo{
@@ -24,7 +24,7 @@ body {
 }
 
 .background-tit{
-    background-color: #fcebf6;
+    background-color: #d6d6d6;
 }
 
 .background-white {
@@ -98,5 +98,21 @@ body {
 }
 
 .logo:hover{
+    transform: scale(1.15);
+}
+
+.contacto {
+    height: 25rem;
+    background-color: #d6d6d6;
+}
+
+.redes{
+    max-width: 4rem;
+    max-height: 4rem;
+    transition: 0.5s;
+    border-radius: 4rem;
+}
+
+.redes:hover {
     transform: scale(1.15);
 }
