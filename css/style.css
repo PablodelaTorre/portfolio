@@ -7815,12 +7815,15 @@ body {
   background-size: cover; }
 
 .titulo {
-  color: black;
+  color: #004ce3;
   border-radius: 5rem; }
 
 .subtitulo {
-  color: black;
+  color: #004ce3;
   border-radius: 5rem; }
+
+.background-tit {
+  background-color: #fcebf6; }
 
 .background-white {
   background-color: white; }
@@ -7853,6 +7856,12 @@ body {
   max-height: 434px;
   max-width: 307px; }
 
+.curriculum a {
+  transition: 0.5s; }
+
+.curriculum a:hover {
+  transform: scale(1.15); }
+
 .altura-proyectos {
   max-height: 10vh;
   height: 10vh; }
@@ -7868,7 +7877,7 @@ body {
 .logo {
   max-width: 8rem;
   max-height: 8rem;
-  transition: 0.3s;
+  transition: 0.5s;
   border-radius: 4rem; }
 
 .logo:hover {
