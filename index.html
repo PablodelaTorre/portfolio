@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Portafolio</title>
+</head>
+<body>
+    <header class="sticky-top">
+        <nav class="navbar navbar-expand-sm navbar-light py-0 background-primario">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse row d-flex" id="navbarNav">
+                    <ul class="navbar-nav lista-nav d-flex px-0 justify-content-md-around justify-content-sm-around">
+                        <li class="">
+                            <a class="d-flex justify-content-center" aria-current="page" href="#inicio">Inicio</a>
+                        </li>
+                        <li class="">
+                            <a class="d-flex justify-content-center" href="#proyectos">Proyectos</a>
+                        </li>
+                        <li class="">
+                            <a class="d-flex justify-content-center" href="">Conocimientos</a>
+                        </li>
+                        <li class="">
+                            <a class="d-flex justify-content-center" href="">Contacto</a>
+                        </li>                                                                  
+                    </ul>                        
+                </div>                    
+            </div>
+        </nav>
+    </header>    
+
+    <div class="container w-50 mt-3 background-white border-radius" id="inicio">
+        <div class="row">
+            <div class="d-flex justify-content-center">
+                <h1 class="fs-1 titulo p-2">Pablo de la Torre</h1>
+            </div>
+        </div>
+        <div class="container-fluid mt-3">
+            <div class="row">
+                <div class="d-flex justify-content-center">
+                    <h2 class="fs-2 subtitulo p-2">Desarrollador Web</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="container-fluid mt-3 curriculum">
+        <div class="row d-flex justify-content-center">
+            <img src="img/Currículum-vitae.png" alt="" class="img-fluid">
+        </div>
+        <div class="row d-flex justify-content-center">
+            <a href="img/currículum-vitae.png" download class="w-50 h-25 btn btn-danger d-flex justify-content-center align-content-center">Descargar cv</a>
+        </div>
+    </div>    
+    
+    <div class="container-fluid altura-proyectos my-4" id="proyectos">
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="img/captura-flores-de-bach.png" class="d-block w-100 border-radius" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/img-portfolio.png" class="d-block w-100 border-radius" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/captura-login.png" class="d-block w-100 border-radius" alt="...">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+    
+    <div class="container-fluid mt-3">
+        <div class="row d-flex justify-content-center bg-white">
+            <img src="img/logo-html.png" alt="" class="">
+        </div>
+    </div>    
+
+
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="scripts/carrusel.js"></script>
+</body>
+</html>
+

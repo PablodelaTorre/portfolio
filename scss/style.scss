@@ -1,0 +1,72 @@
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+$--clr-primario: #469b9e;
+$--clr-le-hover: black;
+$--clr-hover: cyan;
+$--clr-nav: white;
+$--clr-back: #eeeeee;
+
+body {
+    /*background-color: $--clr-back;*/
+    background-image: url(../img/back-matrix.jpg);
+    background-size: cover;
+}
+
+.titulo{
+    color: $--clr-le-hover;
+    border-radius: 5rem;
+}
+
+.subtitulo{
+    color: $--clr-le-hover;
+    border-radius: 5rem;
+}
+
+.background-white {
+    background-color: $--clr-nav;
+}
+
+.background-primario {
+    background-color: $--clr-primario;
+}
+
+.lista-nav li{
+    height: 100%;
+    width: 100%;
+}
+
+.lista-nav li:hover{
+    background-color: $--clr-hover;
+}
+
+.lista-nav a{
+    color: $--clr-nav;
+    text-decoration: none;
+}
+
+.lista-nav li a:hover{
+    color: $--clr-le-hover;
+}
+
+.presentacion{
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.curriculum {
+    max-height: 434px;
+    max-width: 307px;
+}
+
+.curriculum img {
+    max-height: 434px;
+    max-width: 307px;
+}
+
+.altura-proyectos {
+    max-height: 10vh;
+    height: 10vh;
+}
+
+.border-radius {
+    border-radius: 5rem;
+}
