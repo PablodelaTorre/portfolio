@@ -7810,18 +7810,19 @@ textarea.form-control-lg {
     display: none !important; } }
 
 body {
-  background-color: #242424; }
+  background-image: url(../img/background.jpg);
+  background-size: contain; }
 
 .titulo {
-  color: #004ce3;
+  color: white;
   border-radius: 5rem; }
 
 .subtitulo {
-  color: #004ce3;
+  color: white;
   border-radius: 5rem; }
 
 .background-tit {
-  background-color: #d6d6d6; }
+  background-color: #696969; }
 
 .background-white {
   background-color: white; }
@@ -7883,13 +7884,16 @@ body {
 
 .contacto {
   height: 25rem;
-  background-color: #d6d6d6; }
+  background-color: #696969; }
+
+.contacto p {
+  color: white; }
 
 .redes {
-  max-width: 4rem;
-  max-height: 4rem;
+  max-width: 5rem;
+  max-height: 5rem;
   transition: 0.5s;
   border-radius: 4rem; }
 
 .redes:hover {
-  transform: scale(1.15); }
+  transform: scale(1.25); }
