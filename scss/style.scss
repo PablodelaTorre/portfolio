@@ -76,7 +76,6 @@ body {
 }
 
 .altura-proyectos {
-    max-height: 10vh;
     height: 10vh;
 }
 
@@ -87,7 +86,30 @@ body {
 .tecHeight {
     height: fit-content;
     margin-top: 30rem;
-    border-radius: 4rem;
+}
+
+@media (max-width: 800px) {
+    .tecHeight {
+        margin-top: 25rem;
+    }
+}
+
+@media (max-width: 800px) {
+    .tecHeight {
+        margin-top: 20rem;
+    }
+}
+
+@media (max-width: 650px) {
+    .tecHeight {
+        margin-top: 15rem;
+    }
+}
+
+@media (max-width: 500px) {
+    .tecHeight {
+        margin-top: 10rem;
+    }
 }
 
 .logo {
