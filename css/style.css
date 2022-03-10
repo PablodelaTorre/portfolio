@@ -7869,7 +7869,7 @@ body {
 
 .tecHeight {
   height: fit-content;
-  margin-top: 30rem; }
+  margin-top: 40rem; }
 
 @media (max-width: 800px) {
   .tecHeight {
@@ -7885,7 +7885,7 @@ body {
 
 @media (max-width: 500px) {
   .tecHeight {
-    margin-top: 10rem; } }
+    margin-top: 12rem; } }
 
 .logo {
   max-width: 8rem;
