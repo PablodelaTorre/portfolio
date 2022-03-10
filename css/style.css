@@ -7871,7 +7871,11 @@ body {
   height: 20rem;
   margin-top: 40rem; }
 
-@media (max-width: 800px) {
+@media (max-width: 1000px) {
+  .tecHeight {
+    margin-top: 25rem; } }
+
+@media (max-width: 900px) {
   .tecHeight {
     margin-top: 25rem; } }
 
