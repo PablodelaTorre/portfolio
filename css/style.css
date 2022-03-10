@@ -7868,7 +7868,7 @@ body {
   border-radius: 5rem; }
 
 .tecHeight {
-  height: fit-content;
+  height: 20rem;
   margin-top: 40rem; }
 
 @media (max-width: 800px) {
@@ -7885,6 +7885,7 @@ body {
 
 @media (max-width: 500px) {
   .tecHeight {
+    height: 30rem;
     margin-top: 12rem; } }
 
 .logo {
