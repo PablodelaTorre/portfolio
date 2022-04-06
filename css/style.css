@@ -7822,7 +7822,11 @@ body {
   border-radius: 5rem; }
 
 .background-tit {
-  background-color: #696969; }
+  background-color: rgba(0, 0, 0, 0.7);
+  transition: 0.3s; }
+
+.background-tit:hover {
+  transform: scale(1.1); }
 
 .background-white {
   background-color: white; }
@@ -7903,10 +7907,10 @@ body {
 
 .contacto {
   height: 25rem;
-  background-color: #696969; }
+  background-color: rgba(250, 250, 250, 0.8); }
 
 .contacto p {
-  color: white; }
+  color: black; }
 
 .redes {
   max-width: 5rem;
