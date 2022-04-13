@@ -37,7 +37,7 @@ body {
 }
 
 .background-primario {
-    background-color: $--clr-primario;
+    background-color: rgba(70, 155, 158, 0.5);
 }
 
 .lista-nav li{
@@ -52,6 +52,7 @@ body {
 .lista-nav a{
     color: $--clr-nav;
     text-decoration: none;
+    font-size: 1.5rem;
 }
 
 .lista-nav li a:hover{

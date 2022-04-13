@@ -7832,7 +7832,7 @@ body {
   background-color: white; }
 
 .background-primario {
-  background-color: #469b9e; }
+  background-color: rgba(70, 155, 158, 0.5); }
 
 .lista-nav li {
   height: 100%;
@@ -7843,7 +7843,8 @@ body {
 
 .lista-nav a {
   color: white;
-  text-decoration: none; }
+  text-decoration: none;
+  font-size: 1.5rem; }
 
 .lista-nav li a:hover {
   color: black; }
@@ -7875,7 +7876,7 @@ body {
   height: 35px; }
 
 .altura-proyectos {
-  height: 10vh; }
+  height: 5vh; }
 
 .border-radius {
   border-radius: 5rem; }
