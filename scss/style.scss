@@ -37,7 +37,7 @@ body {
 }
 
 .background-primario {
-    background-color: rgba(70, 155, 158, 0.5);
+    background-color: rgba(70, 155, 158, 0.85);
 }
 
 .lista-nav li{
@@ -100,12 +100,14 @@ body {
 }
 
 .tecHeight {
-    height: 20rem;
+    height: 15rem;
     margin-top: 40rem;
+    background-color: rgba(255,255,255,0.9)
 }
 .tecHeight2 {
-    height: 20rem;
+    height: 15rem;
     margin-top: 5rem;
+    background-color: rgba(255,255,255,0.9)
 }
 
 @media (max-width: 1000px) {
